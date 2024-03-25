@@ -25,4 +25,4 @@ We prompt MLLM with "Please find {expression} in the initial frame and provide t
 
 | ![Dog Coordinates](demo/coords_dog.gif) | ![Airplane Coordinates](demo/coords_airplane.gif) |
 |---|---|
-| Dog Coordinates | Airplane Coordinates |
+| [34,40,51,67] | [35,48,60,55] |
