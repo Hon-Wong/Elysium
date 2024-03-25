@@ -11,7 +11,7 @@ To address the first challenge, we introduce ElysiumTrack-1M, a large-scale vide
 
 **Referring Single Object Tracking (RSOT)**
 
-We prompt MLLM with "Please find {expression} in the initial frame and provide the detailed coordinates in each frame." for each video.
+We use prompt "Please find {expression} in the initial frame and provide the detailed coordinates in each frame." for each video.
 
 | ![GIF 1](demo/a_running_dog_played_in_the_snow_field.gif) | ![GIF 2](demo/the_cap_on_a_dogs_head.gif) | ![GIF 3](demo/the_snow_field.gif) | ![GIF 4](demo/shoes.gif) | ![GIF 5](demo/the_person_in_red.gif) |
 |---|---|---|---|---|
@@ -22,6 +22,8 @@ We prompt MLLM with "Please find {expression} in the initial frame and provide t
 | boy back to camera | a dancing kangaroo | dog |
 
 **Single Object Tracking (SOT)**
+
+We use prompt "This is a video showing an object with coordinates {coordinates} in Frame 1. Provide the detailed coordinates of the object in each frame." for each video.
 
 | ![Dog Coordinates](demo/coords_dog.gif) | ![Airplane Coordinates](demo/coords_airplane.gif) |
 |---|---|
