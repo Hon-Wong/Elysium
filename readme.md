@@ -2,7 +2,7 @@
 
 **MLLM can recognize and track anything in videos now!**
 
-[Paper](https://arxiv.org/abs/2403.16558)
+<a href='https://arxiv.org/abs/2403.16558'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
 ## Abstract
 
