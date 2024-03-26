@@ -2,6 +2,8 @@
 
 **MLLM can recognize and track anything in videos now!**
 
+[Paper](https://arxiv.org/abs/2403.16558)
+
 ## Abstract
 
 Multi-modal Large Language Models (MLLMs) have demonstrated their ability to perceive objects in still images, but their application in video-related tasks, such as object tracking, remains understudied. This lack of exploration is primarily due to two key challenges. Firstly, extensive pretraining on large-scale video datasets is required to equip MLLMs with the capability to perceive objects across multiple frames and understand inter-frame relationships. Secondly, processing a large number of frames within the context window of Large Language Models (LLMs) can impose a significant computational burden.
