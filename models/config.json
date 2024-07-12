@@ -1,0 +1,34 @@
+{
+    "adapter_config": {
+      "fix_random": false,
+      "freeze_adapter": false,
+      "in_token_num": 576,
+      "max_video_tokens": 2048,
+      "min_out_token_num": 1,
+      "num_features": 1024,
+      "out_token_num": 108
+    },
+    "architectures": [
+      "ElysiumForCausalLM"
+    ],
+    "auto_map": {
+      "AutoConfig": "modeling_elysium.ElysiumConfig",
+      "AutoModelForCausalLM": "modeling_elysium.ElysiumForCausalLM"
+    },
+    "gradient_checkpointing_enable": false,
+    "llm_config": {
+      "freeze_llm": true,
+      "pretrained_model_name_or_path": "lmsys/vicuna-7b-v1.5"
+    },
+    "model_type": "elysium",
+    "projector_config": {
+      "type": "mlp2x_gelu"
+    },
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.37.0",
+    "use_flash_attention": false,
+    "visual_config": {
+      "freeze_vit": true,
+      "pretrained_model_name_or_path": "openai/clip-vit-large-patch14-336"
+    }
+  }

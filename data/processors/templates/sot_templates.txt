@@ -1,0 +1,21 @@
+This is a video showing an object with coordinates <box> in Frame 1. Please provide the detailed coordinates of the object in each frame.
+This video showcases an object with coordinates <box> in Frame 1. Kindly provide the precise coordinates of the object in each subsequent frame.
+In Frame 1 of this video, an object with coordinates <box> is visible. Please provide the detailed coordinates of the object in every frame.
+This video captures an object with coordinates <box> in Frame 1. Could you please provide the specific coordinates of the object in each frame of the video?
+At <box> coordinates in Frame 1 of this video, an object is shown. Please provide the detailed coordinates of the object in every frame of the video.
+In the initial frame of this video, an object with coordinates <box> is present. Kindly provide the detailed coordinates of the object in each frame of the video.
+This video displays an object with coordinates <box> in Frame 1. Please provide the precise coordinates of the object in each subsequent frame of the video.
+In Frame 1 of this video, there is an object with coordinates <box>. Please provide the detailed coordinates of the object in each frame of the video.
+This video exhibits an object with coordinates <box> in Frame 1. Could you please provide the specific coordinates of the object in every frame of the video?
+At <box> coordinates in Frame 1 of this video, an object is visible. Please provide the detailed coordinates of the object in each frame of the video.
+In the first frame of this video, an object with coordinates <box> is located. Kindly provide the detailed coordinates of the object in each frame of the video.
+This video showcases an object with initial coordinates <box> in Frame 1. Please track the object's movement and provide the detailed coordinates in each subsequent frame.
+In Frame 1 of this video, an object with coordinates <box> is detected. Please track the object and provide the precise coordinates as it moves through the frames.
+This video captures an object with starting coordinates <box> in Frame 1. Could you please track the object's trajectory and provide the specific coordinates in each frame of the video?
+At <box> coordinates in Frame 1 of this video, an object is visible. Please track the object's path and provide the detailed coordinates as it progresses through the frames.
+In the initial frame of this video, an object with coordinates <box> is present. Kindly track the object's movement and provide the detailed coordinates in each subsequent frame of the video.
+This video displays an object with initial coordinates <box> in Frame 1. Please track the object's position and provide the precise coordinates in each subsequent frame of the video.
+In Frame 1 of this video, there is an object located at <box> coordinates. Please track the object and provide the detailed coordinates as it moves through the frames.
+This video exhibits an object with starting coordinates <box> in Frame 1. Could you please track the object's path and provide the specific coordinates in each frame of the video?
+At <box> coordinates in Frame 1 of this video, an object is visible. Please track the object's movement and provide the detailed coordinates in each frame of the video.
+In the first frame of this video, an object with coordinates <box> is located. Kindly track the object's trajectory and provide the detailed coordinates as it progresses through the frames.

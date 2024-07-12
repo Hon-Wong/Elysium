@@ -1,0 +1,90 @@
+bf16: True
+seed: 42
+num_train_epochs: 1
+# max_steps: 1000
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 4
+gradient_accumulation_steps: 1
+evaluation_strategy: "no"
+save_strategy: "steps"
+save_steps: 24000
+save_total_limit: 1
+learning_rate: 0.001
+weight_decay: 0.
+warmup_ratio: 0.03
+lr_scheduler_type: "cosine"
+logging_steps: 1
+tf32: True
+gradient_checkpointing: true
+dataloader_num_workers: 4
+report_to: wandb
+run_name: {RUN_NAME}
+output_dir: {OUTPUT_DIR}
+deepspeed: ./configs/zero2.json
+
+
+data:
+  train:
+    data_fetch:
+      data_paths: [{
+          "anno_path": {PATH_TO_ANNO_FILE},
+          "image_folder": {PATH_TO_IMAGE_FOLDER}
+        }]
+      batch_sizes: [32]
+      num_workers: 8
+      num_readers: [4]
+      key_mapping:
+
+    data_preprocess:
+      with_visual: True
+      frames_key: frames
+      label_key: vqa
+      task_type: vqa
+      tokenizer: "item"
+      max_seq_len: 512
+      max_prompt_len: 256
+      vqa_processor_params:
+        box_format: ours_v1
+      num_segments: 1
+      verbose: True
+      frames_ops:
+        Resize:
+          size: [336, 336]
+        ToTensor: {}
+        Normalize:
+          mean: [0.48145466, 0.4578275, 0.40821073]
+          std: [0.26862954, 0.26130258, 0.27577711]
+
+  predict:
+    data_fetch:
+      anno_path: {PATH_TO_ANNO_FILE}
+      image_folder: {PATH_TO_IMAGE_FOLDER}
+  
+      batch_sizes: [1]
+      num_workers: 1
+      num_readers: [2]
+      key_mapping:
+
+    data_preprocess:
+      with_visual: True
+      frames_key: frames
+      sample_method: random_clip
+      label_key: "vqa"
+      task_type: vqa
+      tokenizer: "item"
+      max_seq_len: 512
+      max_prompt_len: 256
+      vqa_processor_params:
+        box_format: ours_v1
+      online_vqa_processor_params:
+        task: SOT
+      num_segments: 1
+      verbose: True
+      training: False
+      frames_ops:
+        Resize:
+          size: [336, 336]
+        ToTensor: {}
+        Normalize:
+          mean: [0.48145466, 0.4578275, 0.40821073]
+          std: [0.26862954, 0.26130258, 0.27577711]

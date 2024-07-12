@@ -1,0 +1,21 @@
+Please find one {object_class} and provide the detailed coordinates in each frame.
+Please locate a {object_class} and provide the precise coordinates for each frame.
+Kindly identify a {object_class} and furnish the specific coordinates in every frame.
+Find a {object_class} and supply the detailed coordinates for each frame, please.
+Please detect one {object_class} and share the exact coordinates in every frame.
+Locate a {object_class} and record the comprehensive coordinates in each frame, if possible.
+Identify a {object_class} and provide the precise coordinates for every frame, please.
+Kindly spot one {object_class} and document the detailed coordinates in each frame.
+Please find and provide the accurate coordinates for each frame containing a {object_class}.
+Find a {object_class} and accurately note down the coordinates in every frame, if available.
+Detect a {object_class} and furnish the detailed coordinates for each frame, please.
+Please track down a {object_class} and provide the detailed coordinates for each frame.
+Kindly trace a {object_class} and furnish the specific coordinates in every frame of the track.
+Track a {object_class} and supply the detailed coordinates for each frame, please.
+Please follow the movement of one {object_class} and share the exact coordinates in every frame of the track.
+Track the path of a {object_class} and record the comprehensive coordinates in each frame, if possible.
+Identify and track a {object_class}, providing the precise coordinates for every frame of the track, please.
+Kindly spot and track one {object_class}, documenting the detailed coordinates in each frame of the track.
+Please track and provide the accurate coordinates for each frame containing a {object_class}.
+Track the movement of a {object_class} and accurately note down the coordinates in every frame of the track, if available.
+Detect and track a {object_class}, furnishing the detailed coordinates for each frame of the track, please.

@@ -1,0 +1,26 @@
+This is a video showing an object with coordinates <box> in Frame 1. Please describe the object.
+This video captures an object in Frame 1, precisely located at coordinates <box>. Kindly provide a description of the object.
+In Frame 1 of this video, there is an object positioned at coordinates <box>. Please provide a detailed description of the object.
+The first frame of this video displays an object with coordinates <box>. Could you please describe the object in detail?
+At coordinates <box> in Frame 1 of this video, an object is visible. Please provide a comprehensive description of the object.
+In the initial frame of this video, an object is present at coordinates <box>. Can you please describe the object thoroughly?
+This video exhibits an object in Frame 1, precisely positioned at coordinates <box>. Kindly provide a detailed description of the object.
+The object with coordinates <box> can be observed in Frame 1 of this video. Please describe the object comprehensively.
+In Frame 1 of this video, an object is located at coordinates <box>. Could you please provide a detailed description of the object?
+At coordinates <box> in the first frame of this video, there is an object. Kindly describe the object in detail.
+This video starts with an object positioned at coordinates <box> in Frame 1. Please provide a description of the object.
+This video shows an object with coordinates <box> in Frame 1. Please provide a brief description of the object.
+In Frame 1 of this video, there is an object located at coordinates <box>. Please describe the object briefly.
+The first frame of this video displays an object positioned at coordinates <box>. Please provide a concise description of the object.
+At coordinates <box> in Frame 1 of this video, an object is visible. Please provide a summary description of the object.
+In the initial frame of this video, an object is present at coordinates <box>. Can you please provide a brief description of the object?
+This video depicts an object with coordinates <box> in Frame 1. Please provide a description of the object.
+In Frame 1 of this video, there is an object positioned at <box> coordinates. Please describe the object briefly.
+The first frame of this video captures an object located at <box> coordinates. Kindly provide a concise description of the object.
+At <box> coordinates in Frame 1 of this video, an object is visible. Please provide a summary description of the object.
+In the initial frame of this video, an object is present at <box> coordinates. Can you please provide a brief description of the object?
+This video showcases an object with coordinates <box> in Frame 1. Please describe the object in a few words.
+In Frame 1 of this video, there is an object located at <box> coordinates. Could you provide a brief description of the object?
+The first frame of this video displays an object positioned at <box> coordinates. Kindly provide a concise description of the object's appearance.
+At <box> coordinates in Frame 1 of this video, an object is visible. Please provide a summary description of its features.
+In the initial frame of this video, an object is present at <box> coordinates. Can you please provide a brief description of its characteristics?

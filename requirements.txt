@@ -1,0 +1,9 @@
+bitsandbytes==0.43.1
+easydict==1.13
+flash_attn==2.3.5
+numpy==1.19.5
+Pillow==10.4.0
+torch==2.1.0.dev20230424+cu117
+torchvision==0.16.0.dev20230424+cu117
+tqdm==4.64.1
+transformers==4.37.2

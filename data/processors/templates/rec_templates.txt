@@ -1,0 +1,6 @@
+Give me the location of {object_class}.
+Where is {expression}?
+From this image, tell me the location of {expression}.
+The location of {expression} is: 
+Could you tell me the location for {expression}?
+Where can I locate the {expression}?

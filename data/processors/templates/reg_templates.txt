@@ -1,0 +1,6 @@
+What object is in this location <box>?
+Identify the object present at this location <box>.
+What is it in <box>?
+Describe this object in <box>.
+This <box> is:
+The object in <box> is:
