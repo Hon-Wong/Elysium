@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium: Exploring Object-level Perception in Videos via MLLM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 20px;
+            color: rgb(247, 241, 241);
+            background-image: url('background.png'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+        .header h1 {
+            margin-top: 50px;
+            margin-bottom: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .header p {
+            color: rgb(23, 4, 4);
+            margin: 5px 0;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .button-group {
+            margin: 20px 0;
+        }
+        .button-group a {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .button-group a:hover {
+            background-color: #555;
+        }
+        .button-group a::before {
+            content: "\f1c1"; /* PDF icon for Paper */
+            font-family: "FontAwesome";
+            margin-right: 8px;
+        }
+        .button-group a:nth-child(2)::before {
+            content: "\f09b"; /* GitHub icon for Code */
+            font-family: "FontAwesome";
+        }
+        .button-group a:nth-child(3)::before {
+            content: "\f1c0"; /* Database icon for Dataset */
+            font-family: "FontAwesome";
+        }
+        .dataset-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            background-color: #ff6f61;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .dataset-button:hover {
+            background-color: #e65a50;
+        }
+        .content img {
+            max-width: 90%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .content p {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            font-weight: normal;
+            text-align: left;
+        }
+        .gif-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gif-item {
+            text-align: center;
+            width: calc(20% - 10px); /* Adjust width to fit 5 items in a row with gap */
+        }
+        .gif-item img {
+            width: 100%;
+            height: 70%;
+            max-width: 400px; /* Set a maximum width for uniform size */
+            max-height: 300px; /* Set a maximum height for uniform size */
+        }
+        .caption {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .h1 {
+            font-size: 2em;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .citation-container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background-color: #e8eef1;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        @font-face {
+            font-family: "FontAwesome";
+            src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Elysium: Exploring Object-level Perception in Videos via MLLM</h1>
+        <p>
+            Han Wang, 
+            Yanjie Wang, 
+            Yongjie Ye, 
+            Yuxiang Nie, 
+            and Can Huang
+        </p>
+        <p>Bytedance Inc</p>
+        <p>ECCV 2024</p>
+    </div>
+    <div class="button-group">
+        <a href="https://arxiv.org/abs/2403.16558">Paper</a>
+        <a href="https://github.com/Hon-Wong/Elysium">Code</a>
+        <a href="#" class="dataset-button" target="_blank">Dataset</a>
+    </div>
+    <div class="content">
+        <h1 class="h1">Demo</h1>
+        <p>
+            Referring Single Object Tracking (RSOT): We use prompt "Please find {expression} in the initial frame and provide the detailed coordinates in each frame." for each video.
+        </p>
+        <p>
+            Single Object Tracking (SOT): We use prompt "This is a video showing an object with coordinates {coordinates} in Frame 1. Provide the detailed coordinates of the object in each frame." for each video.
+        </p>
+        <div class="gif-container">
+            <div class="gif-item">
+                <img src="gifs/shoes.gif" alt="Shoes">
+                <div class="caption">Shoes</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/the_cap_on_a_dogs_head.gif" alt="The Cap on a Dog's Head">
+                <div class="caption">The Cap on a Dog's Head</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/the_person_in_red.gif" alt="The Person in Red">
+                <div class="caption">The Person in Red</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/the_snow_field.gif" alt="The Snow Field">
+                <div class="caption">The Snow Field</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/a_running_dog_played_in_the_snow_field.gif" alt="A Running Dog Played in the Snow Field">
+                <div class="caption">A Running Dog Played in the Snow Field</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/boy_back_to_camera.gif" alt="Boy Back to Camera">
+                <div class="caption">Boy Back to Camera</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/a_dancing_kangaroo.gif" alt="A Dancing Kangaroo">
+                <div class="caption">A Dancing Kangaroo</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/dog.gif" alt="Dog">
+                <div class="caption">Dog</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/coords_airplane.gif" alt="Coords Airplane">
+                <div class="caption">[35,48,60,55]</div>
+            </div>
+            <div class="gif-item">
+                <img src="gifs/coords_dog.gif" alt="Coords Dog">
+                <div class="caption">[34,40,51,67]</div>
+            </div>
+        </div>
+        <h1 class="h1">Abstract</h1>
+        <p>
+            Multi-modal Large Language Models (MLLMs) have demonstrated their ability to perceive objects in still images, but their application in video-related tasks, such as object tracking, remains understudied. This lack of exploration is primarily due to two key challenges. Firstly, extensive pretraining on large-scale video datasets is required to equip MLLMs with the capability to perceive objects across multiple frames and understand inter-frame relationships. Secondly, processing a large number of frames within the context window of Large Language Models (LLMs) can impose a significant computational burden. To address the first challenge, we introduce ElysiumTrack-1M, a large-scale video dataset supported for three tasks: Single Object Tracking (SOT), Referring Single Object Tracking (RSOT), and Video Referring Expression Generation (Video-REG). ElysiumTrack-1M contains 1.27 million annotated video frames with corresponding object boxes and descriptions. Leveraging this dataset, we conduct training of MLLMs and propose a token-compression model T-Selector to tackle the second challenge. Our proposed approach, Elysium: Exploring Object-level Perception in Videos via MLLM, is an end-to-end trainable MLLM that attempts to conduct object-level tasks in videos without requiring any additional plug-in or expert models.
+        </p>
+        <div class="citation-container">
+            <pre>
+@article{elysium,
+    Author = {Han, Wang and Yanjie, Wang and Yongjie, Ye and Yuxiang, Nie and Huang, Can},
+    Title = {Elysium: Exploring Object-level Perception in Videos via MLLM},
+    Conference = {ECCV},
+    Year = {2024}
+}
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
