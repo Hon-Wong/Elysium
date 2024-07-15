@@ -196,7 +196,7 @@ class VideoLLMEvaluator:
         dp_config = config.data_preprocess
         dp_config.update({"meta_keys": ["source", "id", "question", "gt"]})
         processor = VideoLLMPredictProcessor(**dp_config)
-        
+
         dataset = LocalDataset(
             image_folder=df_config.image_folder, 
             anno_path=df_config.anno_path, 
