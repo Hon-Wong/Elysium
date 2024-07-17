@@ -5,7 +5,7 @@
 
 🚀🚀🚀 Official implementation of *Elysium: Exploring Object-level Perception in Videos via MLLM* in ECCV 2024.
 
-[[Project Page](https://hon-wong.github.io/Elysium/)] [[Dataset](https://huggingface.co/datasets/sty-yyj/ElysiumTrack-1M)] [[Checkpoint](https://huggingface.co/sty-yyj/elysium_7b)]
+[[Project Page](https://hon-wong.github.io/Elysium/)] [[Paper](https://arxiv.org/abs/2403.16558)] [[Dataset](https://huggingface.co/datasets/sty-yyj/ElysiumTrack-1M)] [[Checkpoint](https://huggingface.co/sty-yyj/elysium_7b)]
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/elysium-exploring-object-level-perception-in/zeroshot-video-question-answer-on-msrvtt-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msrvtt-qa?p=elysium-exploring-object-level-perception-in)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/elysium-exploring-object-level-perception-in/zeroshot-video-question-answer-on-msvd-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msvd-qa?p=elysium-exploring-object-level-perception-in)
