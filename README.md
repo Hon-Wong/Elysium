@@ -71,7 +71,7 @@ We use prompt "This is a video showing an object with coordinates {coordinates} 
 1. Clone this repository
   
   ```bash
-  git clone https://github.com/sty-yyj/Elysium.git
+  git clone https://github.com/Hon-Wong/Elysium.git
   cd Elysium
   ```
   
