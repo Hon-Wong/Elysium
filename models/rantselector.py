@@ -66,7 +66,7 @@ class RanTSelecor(nn.Module):
 
             video_token_logits = video_token_logits.squeeze(1)
 
-            video_token_scores = F.softmax(video_token_logits)
+            video_token_scores = F.softmax(video_token_logits)  # gumbel softmax when training
             topk_indices = torch.argsort(video_token_scores, descending=True)[:, :self.out_token_num]
             topk_indices, _ = torch.sort(topk_indices)
             video_topk_token = video_raw_token[
