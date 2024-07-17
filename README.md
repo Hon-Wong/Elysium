@@ -1,6 +1,6 @@
 # Elysium
 
----
+
 **MLLM can recognize and track anything in videos now!**
 
 🚀🚀🚀 Official implementation of *Elysium: Exploring Object-level Perception in Videos via MLLM* in ECCV 2024.
