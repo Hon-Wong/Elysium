@@ -150,7 +150,7 @@ If you find our work helpful for your research, please consider giving a star тн
 ```
 @misc{wang2024elysiumexploringobjectlevelperception,
       title={Elysium: Exploring Object-level Perception in Videos via MLLM}, 
-      author={Han Wang and Yanjie Wang and Yongjie Ye and Yuxiang Nie and Can Huang},
+      author={Han Wang and Yongjie Ye and Yanjie Wang and Yuxiang Nie and Can Huang},
       year={2024},
       eprint={2403.16558},
       archivePrefix={arXiv},
