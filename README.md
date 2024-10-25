@@ -137,10 +137,16 @@ Secondly, Refer to `config.sample_config.yaml`, fill the correct data path into 
 deepspeed eval/eval.py --config {YOUR_CONFIG_PATH} --task SOT
 ```
 
+Next, please remove the overlapping frames and merge short clips into one video.
+
+```
+python3 eval/merge_result.py --files_to_merge={PATH_TO_INFER_RESULT} --output_file={PATH_TO_OUTPUT}
+```
+
 Finally, Run the following command to obtain the metric results
 
 ```
-python eval/otb.py {PATH_TO_INFER_RESULT}
+python eval/otb.py {PATH_TO_OUTPUT}
 ```
 
 ## Citation
